@@ -19,6 +19,11 @@ dependencies {
 // Apply a specific Java toolchain to ease working on different environments.
 kotlin {
 	jvmToolchain(21)
+
+	// Activate required compiler options for using Kore.
+	compilerOptions {
+		freeCompilerArgs.add("-Xcontext-receivers")
+	}
 }
 
 application {

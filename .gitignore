@@ -1,0 +1,9 @@
+### Intellij
+.idea
+
+### Gradle
+.gradle
+build
+
+### Generated Datapacks
+out

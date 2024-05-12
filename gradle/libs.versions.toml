@@ -1,0 +1,11 @@
+# Documentation on libs.versions.toml: https://docs.gradle.org/current/userguide/platforms.html#sub::toml-dependencies-format
+
+[versions]
+kotlin = "1.9.23"
+kore = "1.8.0-24w14a"
+
+[libraries]
+kore = { module = "io.github.ayfri.kore:kore", version.ref = "kore" }
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }

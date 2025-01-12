@@ -22,7 +22,7 @@ kotlin {
 
 	// Activate required compiler options for using Kore.
 	compilerOptions {
-		freeCompilerArgs.add("-Xcontext-receivers")
+		freeCompilerArgs = listOf("-Xcontext-receivers", "-Xsuppress-warning=CONTEXT_RECEIVERS_DEPRECATED")
 	}
 }
 

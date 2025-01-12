@@ -46,7 +46,7 @@ When you're ready to make changes or updates to your datapack:
 - **A:** Use the `tag` keyword to create a new tag and include your elements within it.
 
 For detailed instructions and best practices on using the Kore library, refer to
-the [official Kore documentation](https://github.com/Ayfri/Kore/wiki).
+the [official Kore documentation](https://kore.ayfri.com/docs/home).
 
 ## Contributing to the Project
 
